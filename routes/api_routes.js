@@ -1,5 +1,6 @@
 const router = require('express').Router();
-const { readFromFile, readAndAppend } = require('../db/methods.js');
+const { readFromFile, readAndAppend, writeToFile } = require('../db/methods.js');
+const uuid = require('../helpers/uuid.js');
 
 // GET Route for retrieving all the feedback
 router.get('/notes', (req, res) => {
@@ -7,7 +8,7 @@ router.get('/notes', (req, res) => {
 
   readFromFile('db/db.json').then((data) => res.json(JSON.parse(data)));
 });
-router.post('/', (req, res) => {
+router.post('/notes', (req, res) => {
     // Log that a POST request was received
     console.info(`${req.method} request received to submit notes`);
   
@@ -18,6 +19,7 @@ router.post('/', (req, res) => {
     if (text && title) {
       // Variable for the object we will save
       const newNotes = {
+        id:uuid(),
         text,
         title,
     
@@ -36,13 +38,13 @@ router.post('/', (req, res) => {
     }
   });
 // DELETE Route for a specific tip
-router.delete('/:note_text', (req, res) => {
-    const notesText = req.params.note_text;
+router.delete('/notes/:id', (req, res) => {
+    const notesText = req.params.id;
     readFromFile('./db/db.json')
       .then((data) => JSON.parse(data))
       .then((json) => {
-        // Make a new array of all tips except the one with the ID provided in the URL
-        const result = json.filter((tip) => note.note_text !== notesText);
+        // Make a new array of all notes except the one with the ID provided in the URL
+        const result = json.filter((note) => note.id !== notesText);
   
         // Save that array to the filesystem
         writeToFile('./db/db.json', result);
