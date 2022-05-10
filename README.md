@@ -1,4 +1,4 @@
-# note-taker-interface
+# NOTE TAKER INTERFACE
 
 ![GitHub license](https://img.shields.io/badge/license-undefined-blue.svg)
 
@@ -18,11 +18,11 @@ README GENERATOR
 
 This is a command line application running on NODE JS  The layout of the note taker was key including setting up the folder structure containing the public folder that was included in the application. 
 
- The app.js required the manager, path, fs, and inquirer.  Path was used for output.     
+ The app.js required the manager, PATH, FS, and INQUIRER.  Path was used for output to public files. UUID.js and fsUtils.js were helpers in the application.
 
 # INSTALLATION 
 
-NODE JS, INQUIRER, FS file system, PATH, were used for read and write functions
+EXPRESS Router, NODE JS, INQUIRER, FS file system, PATH, were used for read and write functions
 
 # USAGE 
 
@@ -48,7 +48,7 @@ My challenges for this project was to get the tests to function correctly, mainl
 
 [NOTE TAKER VIDEO (GOOGLE DRIVE)] ()
  
-[Also on Screencasify:](h)
+[Also on Screencasify:]()
 
 [Screenshot] 
 
