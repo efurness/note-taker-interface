@@ -22,7 +22,7 @@ This is a command line application running on NODE JS  The layout of the note ta
 
 # INSTALLATION 
 
-EXPRESS Router, NODE JS, INQUIRER, FS file system, PATH, were used for read and write functions.  The app.js file required the methods.js in folder db toreadFromFile, readAndAppend, writeToFile functions.
+EXPRESS Router, NODE JS, INQUIRER, FS file system, PATH, were used for read and write functions.  PACKAGE JSON to contain the notes text and title. The helpers used were UUID and FS utilies to generate a random string of numbers and letters. The app.js file required the methods.js in folder db to readFromFile, readAndAppend, writeToFile functions.  HEROKU helped with live deployment of application to a broad userbase.  Routes needed EXPRESS and PATH.  Server.js contains middleware to parse JSON and for static files.
 
 # USAGE 
 
@@ -33,25 +33,24 @@ Open source license
 
 # CONTRIBUTING 
 
-SOLO PROJECT
+Public assests were given in this assignment.
 
 # TESTS 
 
+Tests to have application run in Heroku and node js
 
  
 # QUESTIONS 
 
-My challenges for this project was to get the tests to function correctly, mainly to get file paths and get methods to pass.  It is quite a complex project to get all the files to work together, to have tests pass, and a lot of repetitive work with each of the subclasses.
+My challenges for this project included to have the application run on Heroku, I needed to have 
+const PORT = process.env.PORT || 3001;
+in the code to either run on a process environment port or localhost 3001.
 
 [NOTE TAKER INTERFACE](https://github.com/efurness/note-taker-interface.git)
 
 [NOTE TAKER INTERFACE IN HEROKU] (https://pure-crag-28667.herokuapp.com/notes)
 
-[NOTE TAKER VIDEO (GOOGLE DRIVE)] ()
- 
-[Also on Screencasify:]()
-
-[Screenshot] 
+[Screenshot] (note-taker-interface/note_taker_application.gif)
 
 
 * For additional help or questions about collaboration, please reach out to Ellen.Furness@du.edu.
