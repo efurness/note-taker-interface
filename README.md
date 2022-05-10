@@ -52,7 +52,7 @@ in the code to either run on a process environment port or localhost 3001.
 
 [NOTE TAKER INTERFACE](https://github.com/efurness/note-taker-interface.git)
 
-[NOTE TAKER INTERFACE IN HEROKU] (https://pure-crag-28667.herokuapp.com/notes)
+[NOTE TAKER INTERFACE IN HEROKU] (https://pure-crag-28667.herokuapp.com/)
 
 [Project screenshot](/note_taker_application.gif) 
 
