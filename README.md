@@ -22,7 +22,7 @@ This is a command line application running on NODE JS  The layout of the note ta
 
 # INSTALLATION 
 
-EXPRESS Router, NODE JS, INQUIRER, FS file system, PATH, were used for read and write functions
+EXPRESS Router, NODE JS, INQUIRER, FS file system, PATH, were used for read and write functions.  The app.js file required the methods.js in folder db toreadFromFile, readAndAppend, writeToFile functions.
 
 # USAGE 
 
@@ -43,8 +43,9 @@ SOLO PROJECT
 
 My challenges for this project was to get the tests to function correctly, mainly to get file paths and get methods to pass.  It is quite a complex project to get all the files to work together, to have tests pass, and a lot of repetitive work with each of the subclasses.
 
-[TEAM PROFILE GENERATOR](https://github.com/efurness/Note-Taker-Interface.git)
+[NOTE TAKER INTERFACE](https://github.com/efurness/note-taker-interface.git)
 
+[NOTE TAKER INTERFACE IN HEROKU] (https://pure-crag-28667.herokuapp.com/notes)
 
 [NOTE TAKER VIDEO (GOOGLE DRIVE)] ()
  
