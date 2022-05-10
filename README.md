@@ -3,7 +3,9 @@
 ![GitHub license](https://img.shields.io/badge/license-undefined-blue.svg)
 
 # PROJECT TITLE 
-README GENERATOR
+
+ NOTE TAKER INTERFACE
+
 # TABLE OF CONTENTS 
 
 1. [Project Description](#project-description)
@@ -26,6 +28,7 @@ EXPRESS Router, NODE JS, INQUIRER, FS file system, PATH, were used for read and 
 
 # USAGE 
 
+General usage
  
 # LICENSE 
 
@@ -33,7 +36,7 @@ Open source license
 
 # CONTRIBUTING 
 
-Public assests were given in this assignment.
+Public assests were given in this assignment, mini-project was very helpful and also class activities really applied here.
 
 # TESTS 
 
@@ -41,6 +44,7 @@ Tests to have application run in Heroku and node js
 
  
 # QUESTIONS 
+
 
 My challenges for this project included to have the application run on Heroku, I needed to have 
 const PORT = process.env.PORT || 3001;
@@ -50,8 +54,7 @@ in the code to either run on a process environment port or localhost 3001.
 
 [NOTE TAKER INTERFACE IN HEROKU] (https://pure-crag-28667.herokuapp.com/notes)
 
-[Screenshot] (note-taker-interface/note_taker_application.gif)
-
+[Project screenshot](/note_taker_application.gif) 
 
 * For additional help or questions about collaboration, please reach out to Ellen.Furness@du.edu.
 
